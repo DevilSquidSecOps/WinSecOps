@@ -5,6 +5,6 @@ dir <Folder Name> /AD /s ------------in CMD starting at the root of a drive loca
 ##### Exchange/OWA connection logs
 %SystemDrive%\inetpub\logs\LogFiles -------------- find date correlating with your siem alerts 
   
-  Remote Control
- #Start a Remote session
+### Remote Control
+##### Start a Remote session
 Enter-PSSession -ComputerName COMPUTER -Credential USER
