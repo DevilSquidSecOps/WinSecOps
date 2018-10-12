@@ -12,7 +12,9 @@ Search a drive specified and filter for a file. Wildcards allowed. Powershell
 
 ## Known Log File locations
 Exchange/OWA connection logs
-##### %SystemDrive%\inetpub\logs\LogFiles 
+##### %SystemDrive%\inetpub\logs\LogFiles\
+##### example log: u_ex181011.log
+
 ## Remote Control
 Start a Remote session. Powershell.
 ##### Enter-PSSession -ComputerName COMPUTER -Credential USER 
