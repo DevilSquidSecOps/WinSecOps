@@ -6,5 +6,4 @@ gdr -PSProvider 'FileSystem' --------------list all connected drives. Powershell
 ## Known Log File locations
 %SystemDrive%\inetpub\logs\LogFiles --------------Exchange/OWA connection logs
 ### Remote Control
-##### Start a Remote session
-Enter-PSSession -ComputerName COMPUTER -Credential USER
+Enter-PSSession -ComputerName COMPUTER -Credential USER -----------Start a Remote session
