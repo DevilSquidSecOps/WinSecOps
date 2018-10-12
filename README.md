@@ -1,10 +1,10 @@
 # WinSecOps
 Windows Security related management scripts, scenarios and commands
-## Seaching for Files/Folder directories
-dir <Folder Name> /AD /s ------------in CMD starting at the root of a drive locate a directory
-##### Exchange/OWA connection logs
-%SystemDrive%\inetpub\logs\LogFiles -------------- find date correlating with your siem alerts 
-  
+## Seaching for Files/Folders/Drives
+dir <Folder Name> /AD /s ------------starting at the root of a drive locate a directory. CMD.
+gdr -PSProvider 'FileSystem' --------------list all connected drives. Powershell.
+## Known Log File locations
+%SystemDrive%\inetpub\logs\LogFiles --------------Exchange/OWA connection logs
 ### Remote Control
 ##### Start a Remote session
 Enter-PSSession -ComputerName COMPUTER -Credential USER
