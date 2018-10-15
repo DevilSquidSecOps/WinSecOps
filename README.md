@@ -20,5 +20,4 @@ Start a Remote session. Powershell.
 ##### Enter-PSSession -ComputerName COMPUTER -Credential USER 
 ## Query AD for User information
 Get users last password set date
-###### Get-ADUser -Identity "guti916" -Properties PasswordLastSet |
- Select-Object -Property Name, PasswordLastSet, Enabled
+###### Get-ADUser -Identity "guti916" -Properties PasswordLastSet | Select-Object -Property Name, PasswordLastSet, Enabled
