@@ -2,7 +2,7 @@
 Windows Security related management scripts, scenarios and commands
 ## Seaching for Files/Folders/Drives
 starting at the root of a drive locate a directory. CMD.
-##### dir <Folder Name> /AD /s
+##### dir "Folder Name" /AD /s
 list all connected drives. Powershell.
 ##### gdr -PSProvider 'FileSystem' 
 find a file on a drive(start at root ie; C:\ ; wildcards allowed. Finds Files or Directories. Powershell
