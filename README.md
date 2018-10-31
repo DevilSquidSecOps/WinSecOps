@@ -9,6 +9,9 @@ find a file on a drive(start at root ie; C:\ ; wildcards allowed. Finds Files or
 ##### ls -r -ea silentlycontinue -fo -inc "filename*.txt" | % { $_.fullname }
 Search a drive specified and filter for a file. Wildcards allowed. Powershell
 ##### Get-ChildItem -Path D:\ -Filter 'gloria.donaldson*' -Recurse -ErrorAction SilentlyContinue -Force
+Search for a string in MS Word Documents
+##### (See find_string_word.ps1 script)
+
 
 ## Known Log File locations
 Exchange/OWA connection logs
