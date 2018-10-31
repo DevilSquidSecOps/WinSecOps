@@ -12,7 +12,7 @@ Search a drive specified and filter for a file. Wildcards allowed. Powershell
 Search for a string in various file types. Powerhsell
 ##### Get-ChildItem C:\* -include *.xml,*.ini,*.txt,*.config -Recurse -ErrorAction SilentlyContinue | Select-String -Pattern "password"
 Search for a string in MS Word Documents. Powershell
-##### (See find_string_word.ps1 script) and run in ISE to change the $find string as needed
+##### See (find_string_word.ps1 script) and run in ISE to change the $find string as needed
 
 
 ## Known Log File locations
