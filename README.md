@@ -1,11 +1,24 @@
 # WinSecOps
 Windows Security related management scripts, scenarios and commands
-## Seaching for Files/Folders/Drives
-starting at the root of a drive locate a directory. CMD.
-##### dir "Folder Name" /AD /s
-list all connected drives. Powershell.
+
+
+## List connected drives/networked drives. 
+CMD.
+##### diskpart > list volume
+##### net use
+##### wmic logicaldisk get deviceid, volumename, description
+Powershell.
 ##### gdr -PSProvider 'FileSystem' 
-find a file on a drive(start at root ie; C:\ ; wildcards allowed. Finds Files or Directories. Powershell
+
+## Search for Files/Folders
+Find a file on a drive(start at root of drive ie; C:\ ; wildcards allowed.
+CMD
+Find a directory
+##### dir "Folder Name" /AD /s
+Find and locate multiple files with wildcards
+##### dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt ExtraHop*.docx 2>nul
+
+Powershell
 ##### ls -r -ea silentlycontinue -fo -inc "filename*.txt" | % { $_.fullname }
 Search a drive specified and filter for a file. Wildcards allowed. Powershell
 ##### Get-ChildItem -Path D:\ -Filter 'gloria.donaldson*' -Recurse -ErrorAction SilentlyContinue -Force
