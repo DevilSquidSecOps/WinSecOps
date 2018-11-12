@@ -12,18 +12,3 @@ import win32api
 import win32con
 import win32security 
 ```
-
-
-```python
-server = "localhost"
-log_type = '8'
-log_handle = win32evtlog.OpenEventLog(server, log_type)
-log_handle
-```
-
-
-
-
-    <PyEVTLOG_HANDLE:2695700152328>
-
-
