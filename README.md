@@ -1,5 +1,5 @@
 # WinSecOps
-Windows Security related management scripts, scenarios and commands
+Windows Security related management scripts, scenarios and commands with CMD prompt and Powershell
 
 
 ## List connected drives/networked drives. 
@@ -7,13 +7,12 @@ CMD.
 ##### diskpart > list volume
 ##### net use
 ##### wmic logicaldisk get deviceid, volumename, description
+
 Powershell.
 ##### gdr -PSProvider 'FileSystem' 
 
 ## Search for Files/Folders
-Find a file on a drive(start at root of drive ie; C:\ ; wildcards allowed.
 CMD
-Find a directory
 ##### dir "Folder Name" /AD /s
 Find and locate multiple files with wildcards
 ##### dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt ExtraHop*.docx 2>nul
