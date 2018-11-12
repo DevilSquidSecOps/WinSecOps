@@ -39,5 +39,5 @@ __Start a Remote session. Powershell.__
 > Enter-PSSession -ComputerName <*entermachineName*\> -Credential <*enter username*\> 
 
 ## Query AD for User information
-Get users last password set date
+**Get users last password set date**
 > Get-ADUser -Identity "user01" -Properties PasswordLastSet | Select-Object -Property Name, PasswordLastSet, Enabled
