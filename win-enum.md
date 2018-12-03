@@ -37,7 +37,7 @@ __Search a drive specified and filter for a file. Wildcards allowed__
 ## Remote Control
 __Start a Remote session. Powershell.__
 > Enter-PSSession -ComputerName <*entermachineName*\> -Credential <*enter username*\> 
-
+> Exit-PSSession
 ## Query AD for User information
 **Get users last password set date**
 > Get-ADUser -Identity "user01" -Properties PasswordLastSet | Select-Object -Property Name, PasswordLastSet, Enabled
