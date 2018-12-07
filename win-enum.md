@@ -41,3 +41,6 @@ __Start a Remote session. Powershell.__
 ## Query AD for User information
 **Get users last password set date**
 > Get-ADUser -Identity "user01" -Properties PasswordLastSet | Select-Object -Property Name, PasswordLastSet, Enabled
+
+## Listing File Permissions
+> get-acl E:\foldernamehere
