@@ -44,3 +44,8 @@ __Start a Remote session. Powershell.__
 
 ## Listing File Permissions
 > get-acl E:\foldernamehere
+
+## Read .pol Files(powershell)
+Install-Module -Name GPRegistryPolicy 
+Import-GPRegistryPolicy -Path "C:\temp\Registry.pol" -LocalMachine
+
