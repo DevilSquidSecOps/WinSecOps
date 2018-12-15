@@ -49,5 +49,5 @@ __Start a Remote session. Powershell.__
 
 > Install-Module -Name GPRegistryPolicy 
 
-> Import-GPRegistryPolicy -Path "C:\temp\Registry.pol" -LocalMachine
+> Parse-PolFile -Path "C:\temp\Registry.pol"
 
