@@ -51,3 +51,7 @@ __Start a Remote session. Powershell.__
 
 > Parse-PolFile -Path "C:\temp\Registry.pol"
 
+# Network
+## Test connection for IP/port
+> Test-NetConnection -ComputerName 10.10
+.10.100 -Port 389
