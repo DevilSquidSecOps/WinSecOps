@@ -53,10 +53,10 @@ __Start a Remote session. Powershell.__
 
 # Set Environment Variables
 * For Session
-set PATH=%PATH%;C:\your\path\here\
+> set PATH=%PATH%;C:\your\path\here\
 
 * For System Persistent PATH
-setx /M path "%PATH%;C:\your\path\here\"
+> setx /M path "%PATH%;C:\your\path\here\"
 
 # Network
 **Powershell**
