@@ -51,6 +51,13 @@ __Start a Remote session. Powershell.__
 
 > Parse-PolFile -Path "C:\temp\Registry.pol"
 
+# Set Environment Variables
+* For Session
+set PATH=%PATH%;C:\your\path\here\
+
+* For System Persistent PATH
+setx /M path "%PATH%;C:\your\path\here\"
+
 # Network
 **Powershell**
 ## Test connection for IP/port
