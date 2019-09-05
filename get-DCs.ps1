@@ -1,5 +1,5 @@
-#ps1 script
-$dcs = Get-ADDomainController -Filter * | Select-Object -Property name #collect domain controllers in a var
+#collect domain controllers in a var
+$dcs = Get-ADDomainController -Filter * | Select-Object -Property name 
 
 #loop through each one calling them by the object "name" filter we used in the above var
 foreach ($name in $dcs.name){
