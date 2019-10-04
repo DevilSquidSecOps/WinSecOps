@@ -5,5 +5,5 @@ Windows Security related management scripts, scenarios and commands with CMD pro
 * One liner commands for searching,finding,enumerating various files and windows OS criteria. 
 * The intention is to be able to use search features to easily locate anything that comes to mind and rely on these tools when working on any machine. 
   
-## IIS_Log_Parser
+## IIS_Log_Parser_Queries
 * Tools and queries used to parse IIS logs
