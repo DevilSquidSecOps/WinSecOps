@@ -7,3 +7,6 @@ Windows Security related management scripts, scenarios and commands with CMD pro
   
 ## IIS_Log_Parser_Queries
 * Tools and queries used to parse IIS logs
+
+##ProcessName_TCP_Conns.ps1
+* Use this script to check all connections running for a particular application name using the "like" query parameter. Replace the "OUTLOOK" string with the name of the application your trying to find TCP connections for on a host machine.
